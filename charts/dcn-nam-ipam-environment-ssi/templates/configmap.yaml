@@ -7,7 +7,7 @@ data:
   config.yaml: |
     ---
     DENO_ENV: {{ .Values.settings.environment | quote }}
-    SSI_NAME: "SSI-IPAM-NAM-NSG"
+    SSI_NAME: "SSI-NAM-IPAM-ENVIRONMENT"
     SSI_INTERVAL: {{ .Values.settings.interval | quote }}
     REQUEST_TIMEOUT: {{ .Values.settings.timeout | quote }}
     CRON_MODE: {{ .Values.settings.continuousMode | quote }}
